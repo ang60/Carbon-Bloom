@@ -413,62 +413,6 @@ const Dashboard = () => {
             </div>
           </div>
         </div>
-
-        <div className="space-y-6">
-          <div className="bg-white rounded-lg p-6 shadow-sm border">
-            <h3 className="text-lg font-semibold text-gray-900 mb-4">
-              AI Analytics
-            </h3>
-            <div className="space-y-3">
-              <div className="flex justify-between items-center">
-                <span className="text-sm text-gray-600">
-                  Carbon Stock Estimation
-                </span>
-                <span className="text-sm font-medium text-green-600">
-                  95% Accuracy
-                </span>
-              </div>
-              <div className="flex justify-between items-center">
-                <span className="text-sm text-gray-600">Leakage Detection</span>
-                <span className="text-sm font-medium text-blue-600">
-                  Active
-                </span>
-              </div>
-              <div className="flex justify-between items-center">
-                <span className="text-sm text-gray-600">
-                  Permanence Assurance
-                </span>
-                <span className="text-sm font-medium text-purple-600">
-                  Monitored
-                </span>
-              </div>
-            </div>
-          </div>
-
-          <div className="bg-white rounded-lg p-6 shadow-sm border">
-            <h3 className="text-lg font-semibold text-gray-900 mb-4">
-              Data Sources
-            </h3>
-            <div className="space-y-3">
-              <div className="flex items-center space-x-3">
-                <Satellite className="w-5 h-5 text-blue-600" />
-                <span className="text-sm">Satellite Imagery</span>
-              </div>
-              <div className="flex items-center space-x-3">
-                <Activity className="w-5 h-5 text-green-600" />
-                <span className="text-sm">Drone Surveys</span>
-              </div>
-              <div className="flex items-center space-x-3">
-                <MapPin className="w-5 h-5 text-purple-600" />
-                <span className="text-sm">LiDAR Data</span>
-              </div>
-              <div className="flex items-center space-x-3">
-                <FileCheck className="w-5 h-5 text-orange-600" />
-                <span className="text-sm">Field Reports</span>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   );
